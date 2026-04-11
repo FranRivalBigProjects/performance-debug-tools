@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let j=+jobs.value,p=+parallel.value;if(!j||!p){res.innerText='Enter values';return;}res.innerText=`Batches: ${(j/p).toFixed(2)}`;}

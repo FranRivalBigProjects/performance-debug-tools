@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let j=+jobs.value,a=+avg.value;if(!j||!a){res.innerText='Enter values';return;}res.innerText=`Total: ${(j*a).toFixed(2)}s`; }

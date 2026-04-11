@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let arr=times.value.split('\n').map(Number).filter(n=>!isNaN(n));if(!arr.length){res.innerText='Enter data';return;}res.innerText=`Max: ${Math.max(...arr)}s`; }

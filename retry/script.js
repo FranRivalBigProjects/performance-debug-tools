@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let f=+fails.value,a=+attempts.value;if(!f||!a){res.innerText='Enter values';return;}res.innerText=`Retry rate: ${(f/a*100).toFixed(2)}%`; }

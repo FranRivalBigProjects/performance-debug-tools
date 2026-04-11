@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let t=+time.value,r=+reduction.value;if(!t||!r){res.innerText='Enter values';return;}res.innerText=`Optimized: ${(t*(1-r/100)).toFixed(2)}s`; }
